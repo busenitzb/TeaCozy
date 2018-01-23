@@ -1,0 +1,153 @@
+body {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  border-bottom: solid seashell 1px;
+  height: 69px;
+  margin: 0;
+  padding: 0;
+  text-align:left;
+  z-index: 10;
+  background-color: black;
+  top: 0;
+}
+
+.header_logo {
+  margin: 0 10px;
+}
+
+.header_nav nav {
+  display: flex;
+}
+
+.header_nav nav span a {
+  color: seashell;
+  margin: 20px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 70px auto;
+  padding-top: 60px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.Mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 50px;
+}
+
+.body_heading {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.body_heading h2 {
+  margin-top: 10px;
+}
+
+.body_heading h4 {
+  margin-bottom: 10px;
+}
+
+.Tea_of_Month {
+  margin: 0 auto 50px auto;
+}
+
+.menu {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu .menu_item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.menu_item img {
+  height: 200px;
+  width: 300px;
+}
+
+.Locations {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 575px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Locations_heading {
+  display: flex;
+  position: relative;
+}
+
+.Locations_heading h2 {
+  margin: 0;
+}
+
+.Locations_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 80px auto;
+}
+
+.Locations_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 15px 20px;
+}
+
+.Locations_item h4 {
+  margin: 45px auto;
+  font-weight: normal;
+}
+
+.Contact_info {
+  height: 200px;
+  text-align: center;
+}
+
+.Contact_info h2 {
+  margin: 5px auto 20px auto;
+}
+
+footer {
+  margin: 0 auto 5px 20px;
+}
